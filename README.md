@@ -1,12 +1,86 @@
-# React + Vite
+📌 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly Expense Tracker application built with React.js that helps users manage their salary and expenses efficiently.
 
-Currently, two official plugins are available:
+🎯 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of this project is to allow users to:
 
-## Expanding the ESLint configuration
+Enter their salary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add multiple expenses
+
+View total expenses
+
+Check remaining balance
+
+Manage expenses with edit and delete options
+
+🚀 Features
+
+💰 Input Salary – Set your monthly income
+
+📝 Add Expense – Enter expense title and amount
+
+✏️ Edit Expense – Update an existing expense
+
+❌ Delete Expense – Remove unwanted expenses
+
+📊 Summary Section – Shows Salary, Total Expenses & Balance
+
+🖥️ Responsive UI – Built with Tailwind CSS
+
+🛠️ Technology Stack
+
+Frontend: React.js
+
+Styling: Tailwind CSS
+
+📂 Project Structure
+src/
+│── App.js
+│── components/
+│   ├── SalaryInput.js
+│   ├── ExpenseForm.js
+│   ├── ExpenseList.js
+│   ├── Summary.js
+
+⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/expense-tracker.git
+
+
+Navigate to project folder:
+
+cd expense-tracker
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+📸 Screenshots
+
+(Add screenshots of Salary Input, Expense List, and Summary section here for better presentation)
+
+🔮 Future Enhancements
+
+📊 Data visualization using charts (Pie chart / Bar chart for expenses)
+
+💾 Persistent data storage using LocalStorage
+
+🌐 Backend integration for multiple users
+
+📱 Mobile app version with React Native
+
+👨‍💻 Author
+
+Developed by [ABDULMOIZ-45 and Moizkhan99] 🚀
+Feel free to connect with me on 
