@@ -1,6 +1,9 @@
 import { useState } from "react";
 import SalaryInput from "./components/SalaryInput";
 import Summary from "./components/Summary";
+import ExpenseForm from "./components/ExpenseForm";
+import ExpenseList from "./components/ExpenseList";
+
 
 function App() {
   const [salary, setSalary] = useState(0);
@@ -45,9 +48,15 @@ function App() {
         {/* Salary Input */}
         <SalaryInput setSalary={setSalary} />
 
+
         {/* Summary Section */}
         <Summary salary={salary} totalExpenses={totalExpenses} />
 
+        {/* Expense Input */}
+        <ExpenseForm addOrUpdateExpense={addOrUpdateExpense} editingExpense={editingExpense} />
+
+        {/* Expense List */}
+        <ExpenseList expenses={expenses} deleteExpense={deleteExpense} editExpense={editExpense} />
 
       </div>
     </div>
