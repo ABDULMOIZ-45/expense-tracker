@@ -49,7 +49,7 @@ src/
 
 Clone the repository:
 
-git clone https://github.com/your-username/expense-tracker.git
+git clone (https://github.com/ABDULMOIZ-45/expense-tracker.git)
 
 
 Navigate to project folder:
@@ -83,4 +83,4 @@ npm start
 👨‍💻 Author
 
 Developed by [ABDULMOIZ-45 and Moizkhan99] 🚀
-Feel free to connect with me on 
+Feel free to connect with me on www.linkedin.com/in/abdul-moiz-26b731353 
