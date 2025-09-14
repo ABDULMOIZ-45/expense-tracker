@@ -1,7 +1,7 @@
 
 const ExpenseList = ({ expenses, deleteExpense, editExpense }) => {
     return (
-        <div className="max-w-2xl mx-auto bg-white p-4 rounded-lg shadow">
+        <div className="max-w-3xl mx-auto bg-white p-4 rounded-lg shadow">
             <h2 className="text-xl font-semibold mb-3">Expense List</h2>
             {expenses.length === 0 ? (
                 <p className="text-gray-500">No expenses added yet.</p>
