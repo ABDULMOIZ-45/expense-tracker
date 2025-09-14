@@ -46,7 +46,7 @@ function App() {
         </h1>
 
         {/* Salary Input */}
-        <SalaryInput setSalary={setSalary} />
+        <SalaryInput salary={salary} setSalary={setSalary} />
 
 
         {/* Summary Section */}
